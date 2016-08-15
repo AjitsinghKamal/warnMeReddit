@@ -1,0 +1,24 @@
+{
+	"manifest_version":2,
+	"name":"reddit-labeller",
+	"version":"1.0",
+
+	"description":"tells what type of media a reddit link is pointing to",
+
+	"content_scripts":[
+		{
+			"matches":["*://*.reddit.com/*"],
+			"js":["identify.js"],
+			"css":["stamp.css"]
+			
+		}
+	],
+
+	"browser_action":{
+		"default_title":"warn me reddit",
+		"default_popup":"popup/popup.html"
+	}
+
+	
+
+}

@@ -1,0 +1,16 @@
+.m-stamp{
+	
+	border-radius: 3px;
+	background-color: #F5EAED;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 1px 4px 0px 4px;
+    margin-left:8px;
+    color:#D10023;
+
+}
+
+p.stand-out  {
+	color:#7A223A; !important
+}

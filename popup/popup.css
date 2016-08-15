@@ -1,0 +1,50 @@
+
+body{
+	margin:-2px;
+	width:280px;
+
+}
+
+
+header{
+	background-color:#5863F8;
+	position:relative;
+	top:0px;
+	left:0px;
+	height:100px;
+	margin-top:-15px;
+}
+
+#container{
+	position:relative;
+
+}
+
+#domain{
+	padding:4px;
+	margin:10px 10px 10px 10px;
+	border-style: none;
+	border-bottom:2px solid #d5d6d7;
+	font-size:15px;
+	width:120px;
+}
+
+#drop-down{
+	margin:0 8px 0 8px;
+	font-size:12px;
+	padding:4px;
+	border-style:none;
+	
+}
+
+#drop-down option{
+	padding:4px;
+}
+
+#submit{
+	border-style: none;
+	background-color: #EF7A85;
+	padding:4px 8px 4px 8px;
+	font-size: 12px;
+
+}
